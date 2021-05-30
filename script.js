@@ -25,7 +25,7 @@ const resultNotFound=()=>{
     const resultArea= document.getElementById('result-area');
     const foodDiv=document.createElement('div');
     foodDiv.className='result-error'
-    const content=` <h4>No search food found</h4> `;
+    const content=`<h4>No search food found</h4>`;
     foodDiv.innerHTML=content;
     resultArea.appendChild(foodDiv);
 }
